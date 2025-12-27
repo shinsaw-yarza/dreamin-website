@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bakery Landing Page</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= Header ================= -->
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="logo">BAKERY</h1>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <a href="#order" class="btn btn--primary">Order Now</a>
+    </div>
+  </header>
+
+  <!-- ================= Hero ================= -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero__content">
+        <h2>Freshly Baked,<br/>Just for You!</h2>
+        <p>
+          Delicious artisan breads and pastries made fresh every day
+          using the finest ingredients.
+        </p>
+        <a href="#menu" class="btn btn--secondary">Order Now</a>
+      </div>
+    </section>
+
+    <!-- ================= Why Choose Us ================= -->
+    <section id="about" class="features">
+      <div class="container">
+        <h3 class="section-title">Why Choose Us?</h3>
+
+        <div class="features__grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" alt="Artisan bread" />
+            <h4>Artisan Breads</h4>
+            <p>Handcrafted breads baked daily with traditional techniques.</p>
+            <button class="btn btn--small">View More</button>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa" alt="Sweet pastry" />
+            <h4>Sweet Pastries</h4>
+            <p>Buttery, flaky pastries perfect for any time of day.</p>
+            <button class="btn btn--small">View More</button>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" alt="Custom cake" />
+            <h4>Custom Cakes</h4>
+            <p>Beautiful custom cakes for birthdays and special occasions.</p>
+            <button class="btn btn--small">View More</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Visit Us ================= -->
+    <section class="visit">
+      <div class="container visit__grid">
+        <div class="visit__text">
+          <h3>Visit Us Today</h3>
+          <p>
+            Come enjoy fresh pastries, warm bread, and premium coffee
+            in a cozy atmosphere.
+          </p>
+          <a href="#contact" class="btn btn--primary">Visit Us Today</a>
+        </div>
+
+        <div class="visit__images">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Bakery items" />
+          <img src="https://images.unsplash.com/photo-1542826438-8b5eac9b6e58" alt="Donuts" />
+          <img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa" alt="Cakes" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Gallery ================= -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="gallery__grid">
+          <!-- <figure>
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" alt="Cupcake" />
+            <figcaption>Cupcakes</figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Cookies" />
+            <figcaption>Cookies</figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1542826438-8b5eac9b6e58" alt="Cake slice" />
+            <figcaption>Natural Cakes</figcaption>
+          </figure> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <p>© 2025 Bakery. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
